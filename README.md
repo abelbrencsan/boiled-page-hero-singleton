@@ -28,12 +28,12 @@ The following example shows a hero with a title, a headline, and two buttons.
   <div class="container">
     <h1>Lorem ipsum dolor amet</h1>
     <p>Nulla tempus lacus eget sodales venenatis metus</p>
-    <ul class="hero-buttons">
-      <li>
-        <a href="#" class="button" role="button">Button 1</a>
+    <ul class="hero-buttons grid grid--gutter grid--gutter--half grid--center grid--uniform">
+      <li class="grid-col grid-col--xsmall--full">
+        <a href="#" class="button button--fit" role="button">Button 1</a>
       </li>
-      <li>
-        <a href="#" class="button" role="button">Button 2</a>
+      <li class="grid-col grid-col--xsmall--full">
+        <a href="#" class="button button--fit" role="button">Button 2</a>
       </li>
     </ul>
   </div>

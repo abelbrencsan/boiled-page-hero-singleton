@@ -12,42 +12,11 @@ div.hero {
 		font-size: $subheading-1-font-size
 	}
 
-	ul.hero-buttons {
-		display: flex;
-		justify-content: center;
-		list-style: none;
-		margin-left: ($box-padding * -0.5);
-		padding-left: 0;
-
-		> li {
-			padding-left: ($box-padding * 0.5);
-
-			> a.button, > button.button {
-				width: 100%;
-			}
-		}
-	}
-
 	@include breakpoint('medium') {
 		padding: ($section-padding * 1.5) 0 ($section-padding * 1.5 - $element-margin) 0;
 	}
 
 	@include breakpoint('small') {
 		padding: $section-padding 0 ($section-padding - $element-margin) 0;
-	}
-
-	@include breakpoint('xsmall') {
-
-		ul.hero-buttons {
-			display: block;
-
-			> li {
-				margin-bottom: ($box-padding * 0.5);
-
-				&:last-child {
-					margin-bottom: 0;
-				}
-			}
-		}
 	}
 }
