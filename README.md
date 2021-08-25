@@ -15,7 +15,7 @@ Place `_hero.scss` file to `/assets/css/singletons` directory, and add its path 
 Class name | Description | Example
 ---------- | ----------- | -------
 `hero` | Applies hero. | `<div class="hero"></div>`
-`hero-button-list` | Applies a list of buttons inside hero. Use grid component fr alignments | `<ul class="hero-button-list grid"></ul>`
+`hero-button-list` | Applies a list of buttons inside hero. Grid component is used for alignment. | `<ul class="hero-button-list grid"></ul>`
 
 ### Examples
 
